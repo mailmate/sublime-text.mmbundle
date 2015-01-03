@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>gbefgra.tehfg@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Torsten Grust</string>
+	<key>description</key>
+	<string>Sublime Text editor integration.</string>
+	<key>name</key>
+	<string>Sublime Text</string>
+	<key>uuid</key>
+	<string>83682160-8FE1-11E3-BAA8-0800200C9A66</string>
+</dict>
+</plist>

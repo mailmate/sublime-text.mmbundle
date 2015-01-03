@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -f "${HOME}/bin/subl" ];
+then
+	"${HOME}/bin/subl" --wait "${MM_EDIT_FILEPATH}:${MM_LINE_NUMBER}"
+elif [ -f /usr/local/bin/subl ]
+then
+	/usr/local/bin/subl --wait "${MM_EDIT_FILEPATH}:${MM_LINE_NUMBER}"
+else
+	osascript -e 'tell application "System Events" to display dialog "Make sure you have a symbolic link for “subl” in “~/bin/”." buttons "OK" default button 1 with title "Unable to locate Sublime Text"' >/dev/null 2>&1 &
+fi
+
+osascript -e 'tell app "MailMate" to activate'
